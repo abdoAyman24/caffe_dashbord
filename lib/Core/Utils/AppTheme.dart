@@ -2,7 +2,6 @@ import 'package:caffee_dashbord/Core/Utils/app_color.dart';
 import 'package:flutter/material.dart';
 
 final ThemeData AppTheme = ThemeData(
-  fontFamily: 'cairo',
   primaryColorDark: appColor.primary,
   brightness: Brightness.dark,
   scaffoldBackgroundColor: Colors.black,
@@ -30,7 +29,7 @@ final ThemeData AppTheme = ThemeData(
       fontSize: 26,
       fontWeight: FontWeight.bold,
     ),
-    // bodySmall: TextStyle(color: Colors.white, fontSize: 14),
+     bodySmall: TextStyle(color: Colors.white, fontSize: 14),
     bodyMedium: TextStyle(color: Colors.white, fontSize: 16),
 
     labelLarge: TextStyle(
